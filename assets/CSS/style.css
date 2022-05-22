@@ -1,21 +1,20 @@
 body{
     font-family: 'Roboto', sans-serif;
-    position: relative;
+    height: 100%;
+    overflow-x: hidden;  
 }
-
   .Titulo_1{
       color: white;
       font-size: 30px;
   }
-
   .card-body{
       text-align: justify;  
 }
     /**Formulario**/
 .formulario {
-    display: block;
+  display: block;
   width: 100%;
-margin: 0;
+  margin: auto;
   padding: 40px 5%;
   background-color: #198754;
   color:grey;

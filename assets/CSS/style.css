@@ -1,0 +1,81 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+  .Titulo_1{
+      color: white;
+      font-size: 30px;
+  }
+
+  .card-body{
+      text-align: justify;  
+}
+    /**Formulario**/
+.formulario {
+    display: block;
+  width: 100%;
+margin: 0;
+  padding: 40px 5%;
+  background-color: #198754;
+  color:grey;
+}
+.formulario__titulo {
+  text-align: center;
+  margin:35px;
+  color: white;
+  font-size: 18px;
+}
+.formulario__input, .formulario__label, .formulario__submit {
+  display: block;
+  width: 100%;
+  font-size: 1.3em;
+  height: 60px;
+}
+.formulario__input {
+  padding: 20px;
+  background: rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 8px;
+  margin-bottom: 40px;
+  background-color: white;
+  color:grey;
+  
+}
+  .formulario__input:focus + .formulario__label{
+    color: transparent;
+  }
+.formulario__label {
+  padding-left: 15px;
+  display: block;
+  position: absolute;
+  margin-top: -85px;
+  color: rgba(0,0,0,0.5);
+  transition: all 0.2s;
+}
+.formulario__submit {
+  background: rgb(199, 192, 192);
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 125px;
+  font-size: 18px;
+  border: 1px solid rgba(0,0,0,0.3);
+  height: 50px ;
+}
+.formulario .formulario__submit {
+margin: 0 47%;
+}
+/**Footer**/
+.container_2{
+    text-align: center;
+}
+.Titulo_2{
+    font-size: 25px;
+    color: black;
+    padding-top: 30px;
+}
+.Derechos{
+    font-size: 12px;
+}

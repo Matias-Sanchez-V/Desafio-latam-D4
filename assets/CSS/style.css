@@ -7,8 +7,20 @@ body{
       color: white;
       font-size: 30px;
   }
+  .card {
+    Margin:0 50px 0 50px;
+  }
   .card-body{
       text-align: justify;  
+}
+.precios  {
+  height: 100%;
+  color:green;
+  font-size: 18px;
+  display: flex;
+}
+.precio_1{
+  color: aquamarine;
 }
     /**Formulario**/
 .formulario {
